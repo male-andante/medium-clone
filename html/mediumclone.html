@@ -1,26 +1,285 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Medium Clone</title>
+    <link rel="stylesheet" href="../css/mediumclone.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
+
 <body>
     <header>
-        <main>
-            <section id="blog">
-
-            </section>
-            <aside id="sidebar">
-
-            </aside>
-        </main>
-
+        <div id="logo">
+            <img src="../assets/Medium_logo.svg" alt="Medium logo">
+        </div>
+        <div id="tools">
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="bookmarks-outline"></ion-icon>
+            <ion-icon name="notifications-outline"></ion-icon>
+            <button>Resume membership</button>
+            <button id="avatarButton">T</button>
+        </div>
     </header>
-    <footer>
-        <p>Anche se non si vede dagli screen, in realtà Medium ha un footer</p>
-        <p>Copyright © 2020 Medium</p>
-    </footer>
-    
+    <main>
+        <section id="feed">
+            <div id="categorySelectors">
+                <h3>following</h3>
+                <h3>recommended for you</h3>
+            </div>
+            <div id="blogArchive">
+                <div class="blogCard">   <!--Articolo 1 -->
+                    <div class="articleBody">
+                        <div class="articleSummary">
+                            <div class="articleAuthor">
+                                <caption>del testo</caption>
+                            </div>
+                            <div class="articleTitle">
+                                <h2>Titolo articolo</h2>
+                            </div>
+                            <div class="articleText">
+                                <p>Riassunto articolo</p>
+                            </div>
+                        </div>
+                        <div class="articleFeatures">
+                            <div class="articleInfo">
+                                <ul>
+                                    <li class="label">Dec 3</li>
+                                    <li class="label">4 min read</li>
+                                    <li class="label">React</li>
+                                    <li class="label">Popular on Medium</li>
+                                </ul>
+                            </div>
+                            <div class="articleTools">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                                <ion-icon name="ellipsis-horizontal"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="articleThumbnail">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="blogCard">   <!--Articolo 2 -->
+                    <div class="articleBody">
+                        <div class="articleSummary">
+                            <div class="articleAuthor">
+                                <caption>del testo</caption>
+                            </div>
+                            <div class="articleTitle">
+                                <h2>Titolo articolo</h2>
+                            </div>
+                            <div class="articleText">
+                                <p>Riassunto articolo</p>
+                            </div>
+                        </div>
+                        <div class="articleFeatures">
+                            <div class="articleInfo">
+                                <ul>
+                                    <li class="label">Dec 3</li>
+                                    <li class="label">4 min read</li>
+                                    <li class="label">React</li>
+                                    <li class="label">Popular on Medium</li>
+                                </ul>
+                            </div>
+                            <div class="articleTools">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                                <ion-icon name="ellipsis-horizontal"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="articleThumbnail">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="blogCard">   <!--Articolo 3 -->
+                    <div class="articleBody">
+                        <div class="articleSummary">
+                            <div class="articleAuthor">
+                                <caption>del testo</caption>
+                            </div>
+                            <div class="articleTitle">
+                                <h2>Titolo articolo</h2>
+                            </div>
+                            <div class="articleText">
+                                <p>Riassunto articolo</p>
+                            </div>
+                        </div>
+                        <div class="articleFeatures">
+                            <div class="articleInfo">
+                                <ul>
+                                    <li class="label">Dec 3</li>
+                                    <li class="label">4 min read</li>
+                                    <li class="label">React</li>
+                                    <li class="label">Popular on Medium</li>
+                                </ul>
+                            </div>
+                            <div class="articleTools">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                                <ion-icon name="ellipsis-horizontal"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="articleThumbnail">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="blogCard">   <!--Articolo 4 -->
+                    <div class="articleBody">
+                        <div class="articleSummary">
+                            <div class="articleAuthor">
+                                <caption>del testo</caption>
+                            </div>
+                            <div class="articleTitle">
+                                <h2>Titolo articolo</h2>
+                            </div>
+                            <div class="articleText">
+                                <p>Riassunto articolo</p>
+                            </div>
+                        </div>
+                        <div class="articleFeatures">
+                            <div class="articleInfo">
+                                <ul>
+                                    <li class="label">Dec 3</li>
+                                    <li class="label">4 min read</li>
+                                    <li class="label">React</li>
+                                    <li class="label">Popular on Medium</li>
+                                </ul>
+                            </div>
+                            <div class="articleTools">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                                <ion-icon name="ellipsis-horizontal"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="articleThumbnail">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="blogCard">   <!--Articolo 5 -->
+                    <div class="articleBody">
+                        <div class="articleSummary">
+                            <div class="articleAuthor">
+                                <caption>del testo</caption>
+                            </div>
+                            <div class="articleTitle">
+                                <h2>Titolo articolo</h2>
+                            </div>
+                            <div class="articleText">
+                                <p>Riassunto articolo</p>
+                            </div>
+                        </div>
+                        <div class="articleFeatures">
+                            <div class="articleInfo">
+                                <ul>
+                                    <li class="label">Dec 3</li>
+                                    <li class="label">4 min read</li>
+                                    <li class="label">React</li>
+                                    <li class="label">Popular on Medium</li>
+                                </ul>
+                            </div>
+                            <div class="articleTools">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                                <ion-icon name="ellipsis-horizontal"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="articleThumbnail">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside id="sidebar">
+            <div id="connectTotwitter">  <!--Scaricare logo twitter-->
+                <div id="logoConnection">
+                    <img src="../assets/Medium_logo.svg" alt="Medium logo">
+                    <img src="" alt="Twitter logo">
+                </div>
+            <p>Discover Medium writers you already follow on Twitter.</p>
+            <button id="connectButton"><ion-icon name="search-outline"></ion-icon>Connect to Twitter</button>
+            <a href="#">Maybe later</a>
+            </div>
+            <div id="recommendedTopics">
+                <h5>Recommended topics</h5>
+                <div id="topicsChips"> <!--creare classi css per i chip-->
+                    <span class="chip">Technology</span>  
+                    <span class="chip">Money</span>
+                    <span class="chip">Business</span>
+                    <span class="chip">Productivity</span>
+                    <span class="chip">Psychology</span>
+                    <span class="chip">Mindfulness</span>
+                    <span class="chip">Art</span>
+                </div>
+            </div>
+            <div id="authorsTofollow">
+                <h5>Who to follow</h5>
+                <div id="authors">
+                    <div class="author"> <!--autore 1-->
+                        <img class="avatar" src="" alt="">
+                        <div class="authorInfo">
+                            <h4>Lessig</h4>
+                            <p class="label">law professor, activist</p>
+                        </div>
+                        <button>Follow</button>
+                    </div>
+                    <div class="author"> <!--autore 2-->
+                        <img class="avatar" src="" alt="">
+                        <div class="authorInfo">
+                            <h4>Lessig</h4>
+                            <p class="label">law professor, activist</p>
+                        </div>
+                        <button>Follow</button>
+                    </div>
+                    <div class="author"> <!--autore 3-->
+                        <img class="avatar" src="" alt="">
+                        <div class="authorInfo">
+                            <h4>Lessig</h4>
+                            <p class="label">law professor, activist</p>
+                        </div>
+                        <button>Follow</button>
+                    </div>
+                </div>
+            </div>
+            <div id="savedArticles">
+                <h4>Recently saved</h4>
+                <div id="savedArticlesList">
+                    <div class="savedArticle">   <!--articolo 1-->
+                        <p class="caption">Eva Keiffenheim in Age of Awareness</p>
+                        <h5>The Feynman Technique Will Make You Remember What You Read</h5>
+                        <ul>
+                            <li class="label">Oct 2, 2020</li>
+                            <li class="label">6 min read</li>
+                            <li class="label"><ion-icon name="star"></ion-icon></li>
+                        </ul>
+                    </div>
+                    <div class="savedArticle">   <!--articolo 2-->
+                        <p class="caption">chrissy teigen</p>
+                        <h5>Hi.</h5>
+                        <ul>
+                            <li class="label">Oct 27, 2020</li>
+                            <li class="label">8 min read</li>
+                            <li class="label"><ion-icon name="star"></ion-icon></li>
+                        </ul>
+                    </div>
+                    <a href="#">See all(3)</a>
+                </div>
+            </div>
+            <div id="footerLinks">
+                <a href="#">Help</a>
+                <a href="#">Status</a>
+                <a href="#">Writers</a>
+                <a href="#">Blog</a>
+                <a href="#">Careers</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">About</a>
+            </div>
+        </aside>
+    </main>
+
 </body>
+
 </html>
