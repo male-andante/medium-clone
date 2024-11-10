@@ -91,7 +91,7 @@ background-color: white;
   text-decoration: none;
   display: inline-block;
   font-size: 0.8em;
-  border-radius: 1em;
+  border-radius: 1.5em;
 }
 
 button:hover{
@@ -160,14 +160,15 @@ main{
     display: flex;
     flex-direction: row;
     padding-top: 64px;
+    margin: 0 3em;
 }
 
 #feed{
     /*display: flex;
     flex-direction: column;
     align-items: center;*/
-    width: 70%;
-    padding: 1.5em;
+    width: 65%;
+    padding: 2em;
     border-right: 1px solid lightgray;
 }
 
@@ -176,7 +177,7 @@ aside{
     flex-direction: column;
     align-items: center;*/
     width: 35%;
-    padding: 1.5em;
+    padding: 3em;
 }
 
 /* Header*/
@@ -206,7 +207,7 @@ aside{
     display: flex;
     flex-flow: row wrap;
     /*gap: 1em;*/
-    margin: 0 2em;
+    margin: 0 3em 0 2em;
     border-bottom: 1px solid lightgray;
 }
 
@@ -221,17 +222,23 @@ aside{
     flex-direction: row;
     align-items: center;
     gap: 1em;
-    padding: 1em;
+    padding: 1em 3em 1em 0;
     margin: 1em;
     height: 200px;
 }
 
 .articleBody{
-    width: 80%;
+    width: 70%;
 }
 
 .articleSummary{
     margin: 0 0.5em;
+}
+
+.articleText p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .articleThumbnail{
@@ -278,8 +285,9 @@ ul{
     flex-direction: column;
     align-items: center;
     gap: 0.8em;
-    padding: 1em;
+    padding: 1em 1em 2.5em 1em;
     margin: 0.5em 0;
+    border-bottom: 1px solid lightgray;
 }
 
 #logoConnection{
@@ -310,6 +318,8 @@ ul{
 
 #connectButton{
     color:rgb(90, 90, 90);
+    padding: 1em 1.5em;
+    border-radius: 2.5em;
 }
 
 #connectButton img{
@@ -415,15 +425,15 @@ ul{
 
 /* Background per gestione margini e padding */
 
-.blogCard, #connectTotwitter, #recommendedTopics, #authorsTofollow, #savedArticles, #footerLinks, #categorySelectors{
+/*.blogCard, #connectTotwitter, #recommendedTopics, #authorsTofollow, #savedArticles, #footerLinks, #categorySelectors{
     background-color: white;
-}
+}*/
 
 /*aside{
     background-color: red;
 }*/
 
-#feed{
+/*#feed{
     background-color: yellow;
-}
+}*/
 
