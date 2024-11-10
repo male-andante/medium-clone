@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../css/mediumclone.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,261 +28,272 @@
     </header>
     <main>
         <div class="flex-container">
-        <section id="feed">
-            <div id="categorySelectors">
-                <h3>following</h3>
-                <h3>recommended for you</h3>
-            </div>
-            <div id="feedArchive">
-                <div class="blogCard">   <!--Articolo 1 -->
-                    <div class="articleBody">
-                        <div class="articleSummary">
-                            <div class="articleAuthor">
-                                <p class="caption">Kolby Sisk</p>
+            <section id="feed">
+                <div id="categorySelectors">
+                    <h3>following</h3>
+                    <h3>recommended for you</h3>
+                </div>
+                <div id="feedArchive">
+                    <div class="blogCard"> <!--Articolo 1 -->
+                        <div class="articleBody">
+                            <div class="articleSummary">
+                                <div class="articleAuthor">
+                                    <p class="caption">Kolby Sisk</p>
+                                </div>
+                                <div class="articleTitle">
+                                    <h2>React state management in 2022 — Return of the Redux</h2>
+                                </div>
+                                <div class="articleText">
+                                    <p>Redux was created in 2015 by Dan Abramov and Andrew Clark as a solution for
+                                        managing and providing state across an entire React application.</p>
+                                </div>
                             </div>
-                            <div class="articleTitle">
-                                <h2>React state management in 2022 — Return of the Redux</h2>
-                            </div>
-                            <div class="articleText">
-                                <p>Redux was created in 2015 by Dan Abramov and Andrew Clark as a solution for managing and providing state across an entire React application.</p>
+                            <div class="articleFeatures">
+                                <div class="articleInfo">
+                                    <ul>
+                                        <li class="label">Dec 3</li>
+                                        <li class="label">4 min read</li>
+                                        <li class="label">React</li>
+                                        <li class="label">Popular on Medium</li>
+                                    </ul>
+                                </div>
+                                <div class="articleTools">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                    <ion-icon name="ellipsis-horizontal"></ion-icon>
+                                </div>
                             </div>
                         </div>
-                        <div class="articleFeatures">
-                            <div class="articleInfo">
-                                <ul>
-                                    <li class="label">Dec 3</li>
-                                    <li class="label">4 min read</li>
-                                    <li class="label">React</li>
-                                    <li class="label">Popular on Medium</li>
-                                </ul>
-                            </div>
-                            <div class="articleTools">
-                                <ion-icon name="bookmark-outline"></ion-icon>
-                                <ion-icon name="ellipsis-horizontal"></ion-icon>
-                            </div>
+                        <div class="articleThumbnail">
+                            <img src="../assets/article-thumbnail_1.webp" alt="React state management 2022 article">
                         </div>
                     </div>
-                    <div class="articleThumbnail">
-                        <img src="../assets/article-thumbnail_1.webp" alt="React state management 2022 article">
+                    <div class="blogCard"> <!--Articolo 2 -->
+                        <div class="articleBody">
+                            <div class="articleSummary">
+                                <div class="articleAuthor">
+                                    <p class="caption">Navoda Nilakshi</p>
+                                </div>
+                                <div class="articleTitle">
+                                    <h2>How To Sanitize Your Express App Against MongoDB Injection & Cross-Site
+                                        Scripting</h2>
+                                </div>
+                                <div class="articleText">
+                                    <p>So you will also need to install sanitize-html npm package. The sanitizeHtml() is
+                                        coming from that package which will be doing the job for us. I ...</p>
+                                </div>
+                            </div>
+                            <div class="articleFeatures">
+                                <div class="articleInfo">
+                                    <ul>
+                                        <li class="label">Dec 16</li>
+                                        <li class="label">6 min read</li>
+                                        <li class="label">Web development</li>
+                                        <li class="label">Based on your reading history</li>
+                                    </ul>
+                                </div>
+                                <div class="articleTools">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                    <ion-icon name="ellipsis-horizontal"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="articleThumbnail">
+                            <img src="../assets/article-thumbnail_2.webp" alt="how to sanitize your app">
+                        </div>
+                    </div>
+                    <div class="blogCard"> <!--Articolo 3 -->
+                        <div class="articleBody">
+                            <div class="articleSummary">
+                                <div class="articleAuthor">
+                                    <p class="caption">OJEBIYI FULNESS</p>
+                                </div>
+                                <div class="articleTitle">
+                                    <h2>React 18: The Features and The Future</h2>
+                                </div>
+                                <div class="articleText">
+                                    <p>All about the exciting release of React 18 and exploring its new features</p>
+                                </div>
+                            </div>
+                            <div class="articleFeatures">
+                                <div class="articleInfo">
+                                    <ul>
+                                        <li class="label">Nov 24</li>
+                                        <li class="label">4 min read</li>
+                                        <li class="label">Reactjs</li>
+                                        <li class="label">Popular on Medium</li>
+                                    </ul>
+                                </div>
+                                <div class="articleTools">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                    <ion-icon name="ellipsis-horizontal"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="articleThumbnail">
+                            <img src="../assets/article-thumbnail_3.webp" alt="React 18 new features">
+                        </div>
+                    </div>
+                    <div class="blogCard"> <!--Articolo 4 -->
+                        <div class="articleBody">
+                            <div class="articleSummary">
+                                <div class="articleAuthor">
+                                    <p class="caption">Kolby Sisk</p>
+                                </div>
+                                <div class="articleTitle">
+                                    <h2>Understanding re-rendering and memoization in React</h2>
+                                </div>
+                                <div class="articleText">
+                                    <p>The following are quick tips to increase performance in your React application by
+                                        understanding re-rendering and memoization.</p>
+                                </div>
+                            </div>
+                            <div class="articleFeatures">
+                                <div class="articleInfo">
+                                    <ul>
+                                        <li class="label">Dec 6</li>
+                                        <li class="label">6 min read</li>
+                                        <li class="label">React</li>
+                                        <li class="label">Popular on Medium</li>
+                                    </ul>
+                                </div>
+                                <div class="articleTools">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                    <ion-icon name="ellipsis-horizontal"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="articleThumbnail">
+                            <img src="../assets/article-thumbnail_4.webp" alt="React re-rendering and memoization">
+                        </div>
+                    </div>
+                    <div class="blogCard"> <!--Articolo 5 -->
+                        <div class="articleBody">
+                            <div class="articleSummary">
+                                <div class="articleAuthor">
+                                    <p class="caption">del testo</p>
+                                </div>
+                                <div class="articleTitle">
+                                    <h2>Titolo articolo</h2>
+                                </div>
+                                <div class="articleText">
+                                    <p>Riassunto articolo</p>
+                                </div>
+                            </div>
+                            <div class="articleFeatures">
+                                <div class="articleInfo">
+                                    <ul>
+                                        <li class="label">Dec 3</li>
+                                        <li class="label">4 min read</li>
+                                        <li class="label">React</li>
+                                        <li class="label">Popular on Medium</li>
+                                    </ul>
+                                </div>
+                                <div class="articleTools">
+                                    <ion-icon name="bookmark-outline"></ion-icon>
+                                    <ion-icon name="ellipsis-horizontal"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="articleThumbnail">
+                            <img src="" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="blogCard">   <!--Articolo 2 -->
-                    <div class="articleBody">
-                        <div class="articleSummary">
-                            <div class="articleAuthor">
-                                <p class="caption">Navoda Nilakshi</p>
-                            </div>
-                            <div class="articleTitle">
-                                <h2>How To Sanitize Your Express App Against MongoDB Injection & Cross-Site Scripting</h2>
-                            </div>
-                            <div class="articleText">
-                                <p>So you will also need to install sanitize-html npm package. The sanitizeHtml() is coming from that package which will be doing the job for us. I ...</p>
-                            </div>
-                        </div>
-                        <div class="articleFeatures">
-                            <div class="articleInfo">
-                                <ul>
-                                    <li class="label">Dec 16</li>
-                                    <li class="label">6 min read</li>
-                                    <li class="label">Web development</li>
-                                    <li class="label">Based on your reading history</li>
-                                </ul>
-                            </div>
-                            <div class="articleTools">
-                                <ion-icon name="bookmark-outline"></ion-icon>
-                                <ion-icon name="ellipsis-horizontal"></ion-icon>
-                            </div>
-                        </div>
+            </section>
+            <aside>
+                <div id="connectTotwitter"> <!--Scaricare logo twitter-->
+                    <div id="logoConnection">
+                        <img src="../assets/Medium_logo.svg" alt="Medium logo">
+                        <img src="../assets/twitter-logo_small.png" alt="Twitter logo">
                     </div>
-                    <div class="articleThumbnail">
-                        <img src="../assets/article-thumbnail_2.webp" alt="how to sanitize your app">
+                    <p>Discover Medium writers you already follow on Twitter.</p>
+                    <button id="connectButton"><img src="../assets/twitter-logo_small.png" alt="Twitter logo">Connect to
+                        Twitter</button>
+                    <a href="#">Maybe later</a>
+                </div>
+                <div id="recommendedTopics">
+                    <h5>Recommended topics</h5>
+                    <div id="topicsChips"> <!--creare classi css per i chip-->
+                        <span class="chip">Technology</span>
+                        <span class="chip">Money</span>
+                        <span class="chip">Business</span>
+                        <span class="chip">Productivity</span>
+                        <span class="chip">Psychology</span>
+                        <span class="chip">Mindfulness</span>
+                        <span class="chip">Art</span>
                     </div>
                 </div>
-                <div class="blogCard">   <!--Articolo 3 -->
-                    <div class="articleBody">
-                        <div class="articleSummary">
-                            <div class="articleAuthor">
-                                <p class="caption">OJEBIYI FULNESS</p>
+                <div id="authorsTofollow">
+                    <h5>Who to follow</h5>
+                    <div id="authors">
+                        <div class="author"> <!--autore 1-->
+                            <div class="authorBlock">
+                                <img class="avatar" src="../assets/avatar-man_1.jpg" alt="Foto autore">
+                                <div class="authorInfo">
+                                    <h4>Lessig</h4>
+                                    <p class="label">law professor, activist</p>
+                                </div>
                             </div>
-                            <div class="articleTitle">
-                                <h2>React 18: The Features and The Future</h2>
-                            </div>
-                            <div class="articleText">
-                                <p>All about the exciting release of React 18 and exploring its new features</p>
-                            </div>
+                            <button>Follow</button>
                         </div>
-                        <div class="articleFeatures">
-                            <div class="articleInfo">
-                                <ul>
-                                    <li class="label">Nov 24</li>
-                                    <li class="label">4 min read</li>
-                                    <li class="label">Reactjs</li>
-                                    <li class="label">Popular on Medium</li>
-                                </ul>
+                        <div class="author"> <!--autore 2-->
+                            <div class="authorBlock">
+                                <img class="avatar" src="../assets/avatar-man_1.jpg" alt="Foto autore">
+                                <div class="authorInfo">
+                                    <h4>Lessig</h4>
+                                    <p class="label">law professor, activist</p>
+                                </div>
                             </div>
-                            <div class="articleTools">
-                                <ion-icon name="bookmark-outline"></ion-icon>
-                                <ion-icon name="ellipsis-horizontal"></ion-icon>
-                            </div>
+                            <button>Follow</button>
                         </div>
-                    </div>
-                    <div class="articleThumbnail">
-                        <img src="../assets/article-thumbnail_3.webp" alt="React 18 new features">
+                        <div class="author"> <!--autore 3-->
+                            <div class="authorBlock">
+                                <img class="avatar" src="../assets/avatar-man_1.jpg" alt="Foto autore">
+                                <div class="authorInfo">
+                                    <h4>Lessig</h4>
+                                    <p class="label">law professor, activist</p>
+                                </div>
+                            </div>
+                            <button>Follow</button>
+                        </div>
                     </div>
                 </div>
-                <div class="blogCard">   <!--Articolo 4 -->
-                    <div class="articleBody">
-                        <div class="articleSummary">
-                            <div class="articleAuthor">
-                                <p class="caption">Kolby Sisk</p>
-                            </div>
-                            <div class="articleTitle">
-                                <h2>Understanding re-rendering and memoization in React</h2>
-                            </div>
-                            <div class="articleText">
-                                <p>The following are quick tips to increase performance in your React application by understanding re-rendering and memoization.</p>
-                            </div>
+                <div id="savedArticles">
+                    <h5>Recently saved</h5>
+                    <div id="savedArticlesList">
+                        <div class="savedArticle"> <!--articolo 1-->
+                            <p class="caption">Eva Keiffenheim in Age of Awareness</p>
+                            <h5>The Feynman Technique Will Make You Remember What You Read</h5>
+                            <ul>
+                                <li class="label">Oct 2, 2020</li>
+                                <li class="label">6 min read</li>
+                                <li class="label"><ion-icon name="star"></ion-icon></li>
+                            </ul>
                         </div>
-                        <div class="articleFeatures">
-                            <div class="articleInfo">
-                                <ul>
-                                    <li class="label">Dec 6</li>
-                                    <li class="label">6 min read</li>
-                                    <li class="label">React</li>
-                                    <li class="label">Popular on Medium</li>
-                                </ul>
-                            </div>
-                            <div class="articleTools">
-                                <ion-icon name="bookmark-outline"></ion-icon>
-                                <ion-icon name="ellipsis-horizontal"></ion-icon>
-                            </div>
+                        <div class="savedArticle"> <!--articolo 2-->
+                            <p class="caption">chrissy teigen</p>
+                            <h5>Hi.</h5>
+                            <ul>
+                                <li class="label">Oct 27, 2020</li>
+                                <li class="label">8 min read</li>
+                                <li class="label"><ion-icon name="star"></ion-icon></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="articleThumbnail">
-                        <img src="../assets/article-thumbnail_4.webp" alt="React re-rendering and memoization">
-                    </div>
-                </div>
-                <div class="blogCard">   <!--Articolo 5 -->
-                    <div class="articleBody">
-                        <div class="articleSummary">
-                            <div class="articleAuthor">
-                                <p class="caption">del testo</p>
-                            </div>
-                            <div class="articleTitle">
-                                <h2>Titolo articolo</h2>
-                            </div>
-                            <div class="articleText">
-                                <p>Riassunto articolo</p>
-                            </div>
-                        </div>
-                        <div class="articleFeatures">
-                            <div class="articleInfo">
-                                <ul>
-                                    <li class="label">Dec 3</li>
-                                    <li class="label">4 min read</li>
-                                    <li class="label">React</li>
-                                    <li class="label">Popular on Medium</li>
-                                </ul>
-                            </div>
-                            <div class="articleTools">
-                                <ion-icon name="bookmark-outline"></ion-icon>
-                                <ion-icon name="ellipsis-horizontal"></ion-icon>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="articleThumbnail">
-                        <img src="" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <aside>
-            <div id="connectTotwitter">  <!--Scaricare logo twitter-->
-                <div id="logoConnection">
-                    <img src="../assets/Medium_logo.svg" alt="Medium logo">
-                    <img src="" alt="Twitter logo">
-                </div>
-            <p>Discover Medium writers you already follow on Twitter.</p>
-            <button id="connectButton"><ion-icon name="search-outline"></ion-icon>Connect to Twitter</button>
-            <a href="#">Maybe later</a>
-            </div>
-            <div id="recommendedTopics">
-                <h5>Recommended topics</h5>
-                <div id="topicsChips"> <!--creare classi css per i chip-->
-                    <span class="chip">Technology</span>  
-                    <span class="chip">Money</span>
-                    <span class="chip">Business</span>
-                    <span class="chip">Productivity</span>
-                    <span class="chip">Psychology</span>
-                    <span class="chip">Mindfulness</span>
-                    <span class="chip">Art</span>
-                </div>
-            </div>
-            <div id="authorsTofollow">
-                <h5>Who to follow</h5>
-                <div id="authors">
-                    <div class="author"> <!--autore 1-->
-                        <img class="avatar" src="" alt="">
-                        <div class="authorInfo">
-                            <h4>Lessig</h4>
-                            <p class="label">law professor, activist</p>
-                        </div>
-                        <button>Follow</button>
-                    </div>
-                    <div class="author"> <!--autore 2-->
-                        <img class="avatar" src="" alt="">
-                        <div class="authorInfo">
-                            <h4>Lessig</h4>
-                            <p class="label">law professor, activist</p>
-                        </div>
-                        <button>Follow</button>
-                    </div>
-                    <div class="author"> <!--autore 3-->
-                        <img class="avatar" src="" alt="">
-                        <div class="authorInfo">
-                            <h4>Lessig</h4>
-                            <p class="label">law professor, activist</p>
-                        </div>
-                        <button>Follow</button>
-                    </div>
-                </div>
-            </div>
-            <div id="savedArticles">
-                <h4>Recently saved</h4>
-                <div id="savedArticlesList">
-                    <div class="savedArticle">   <!--articolo 1-->
-                        <p class="caption">Eva Keiffenheim in Age of Awareness</p>
-                        <h5>The Feynman Technique Will Make You Remember What You Read</h5>
-                        <ul>
-                            <li class="label">Oct 2, 2020</li>
-                            <li class="label">6 min read</li>
-                            <li class="label"><ion-icon name="star"></ion-icon></li>
-                        </ul>
-                    </div>
-                    <div class="savedArticle">   <!--articolo 2-->
-                        <p class="caption">chrissy teigen</p>
-                        <h5>Hi.</h5>
-                        <ul>
-                            <li class="label">Oct 27, 2020</li>
-                            <li class="label">8 min read</li>
-                            <li class="label"><ion-icon name="star"></ion-icon></li>
-                        </ul>
                     </div>
                     <a href="#">See all(3)</a>
                 </div>
-            </div>
-            <div id="footerLinks">
-                <a href="#">Help</a>
-                <a href="#">Status</a>
-                <a href="#">Writers</a>
-                <a href="#">Blog</a>
-                <a href="#">Careers</a>
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">About</a>
-            </div>
-        </aside>
-    </div>
+                <div id="footerLinks">
+                    <span href="#">Help</span>
+                    <span href="#">Status</span>
+                    <span href="#">Writers</span>
+                    <span href="#">Blog</span>
+                    <span href="#">Careers</span>
+                    <span href="#">Privacy</span>
+                    <span href="#">Terms</span>
+                    <span href="#">About</span>
+                </div>
+            </aside>
+        </div>
     </main>
 
 </body>
