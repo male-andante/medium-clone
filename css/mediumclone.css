@@ -15,7 +15,7 @@ body{
 /*Tipografia*/
 
 h1, h2, h3, h4, h5, button .chip, .label, span{
-    font-family: Geist;
+    font-family: Geist, sans-serif;
     line-height: auto;
 }
 
@@ -122,7 +122,7 @@ button:hover{
 
 .chip{
     background-color: whitesmoke;
-    border-radius: 16px;
+    border-radius: 1em;
     padding: 6px 10px;
     margin: 0;
 }
@@ -143,7 +143,7 @@ header{
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    padding: 1em 0;
+    padding: 1em /*3em*/;
     position: fixed;
     background-color: white;
     box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.1);
@@ -159,8 +159,8 @@ main{
 .flex-container {
     display: flex;
     flex-direction: row;
-    padding-top: 64px;
-    margin: 0 3em;
+    padding-top: 4em;
+    margin: 0 6em;
 }
 
 #feed{
@@ -252,6 +252,19 @@ aside{
     height: 100%;
 }
 
+.articleAuthor{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.articleAuthor img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .articleFeatures{
     display: flex;
     align-items: center;
@@ -259,7 +272,15 @@ aside{
 }
 
 .articleInfo{
-    margin: 0 1em;
+    display: flex;
+    gap: 0.5em;
+    margin: 0 0.5em;
+}
+
+.articleInfo :nth-child(5){
+    background-color: whitesmoke;
+    border-radius: 1.5em;
+    padding: 0.25em 0.5em;
 }
 
 ul{
@@ -285,7 +306,7 @@ ul{
     flex-direction: column;
     align-items: center;
     gap: 0.8em;
-    padding: 1em 1em 2.5em 1em;
+    padding: 1em 1em 2em 1em;
     margin: 0.5em 0;
     border-bottom: 1px solid lightgray;
 }
@@ -298,16 +319,16 @@ ul{
 }
 
 #logoConnection :first-child{
-    width: 30%;
+    width: 35%;
 
 }
 
 #logoConnection :last-child{
-    width: 8%;
+    width: 10%;
 }
 
 #connectTotwitter p {
-    margin: 0 2,25em;
+    margin: 0 2em;
     text-align: center;
     color: rgb(90, 90, 90);
 }   
@@ -399,9 +420,26 @@ ul{
     margin: 0.8em 0;
 }*/
 
-.savedArticle ul{
-    padding: 0.25em 0.8em;
+.savedArticle .articleAuthor{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    margin: 0.5em 0;
+}
 
+.savedArticle .articleAuthor img{
+    width: 1.5em;
+    height: 1.5em;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.savedArticle .articleInfo{
+    margin: 0;
+}
+
+.savedArticle :nth-child(5){
+    background-color: transparent;
 }
 
 #savedArticles a{
